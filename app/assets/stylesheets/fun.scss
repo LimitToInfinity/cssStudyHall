@@ -1,0 +1,99 @@
+/* Import some Google font url */
+/* Meyer reset */
+
+* {
+    box-sizing: border-box; 
+}
+
+h1 > a {
+    display: inline;
+    text-decoration: none;
+    color: inherit;
+    cursor: initial;
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    font-family: Roboto, sans-serif;
+}
+
+.box {
+    background-color: hsl(140, 40%, 70%);
+    height: 50vh;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: center;
+}
+
+.inner-box {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 2rem;
+    background: hsl(240, 40%, 70%)
+    padding: 2rem;
+}
+
+button, input {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.25rem;
+}
+
+button, [type=submit] {
+    background-color: hsl(120, 40%, 50%);
+    margin-top: 1rem;
+    border: none;
+    color: white;
+    font-weight: 700;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+button:hover, [type=submit]:hover {
+    background-color: hsl(120, 40%, 60%);
+    transform: scale(1.02);
+}
+
+.box-container {
+    position: relative;
+}
+.box-1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: hsla(0, 50%, 50%, 0.5);
+}
+
+.box-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: hsla(240, 50%, 50%, 0.5);
+    top: 50px;
+    left: 50px;
+}
+
+/*
+div {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 50%, 90%);
+    padding: 2rem;
+}
+
+span {
+    max-width: 300px;
+    background-color: white;
+    min-height: 100vh;
+    padding: 1rem;
+}
+*/
